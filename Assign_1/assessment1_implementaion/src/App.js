@@ -16,7 +16,7 @@ function App() {
       <DragAndDrop/>
       {<Rating rating={2.5} />}
       {<Carosuel/>}
-      {<FileUpload/>}
+//       {<FileUpload/>}
 
     </div>
   );
