@@ -12,7 +12,7 @@ import { FileUpload } from './Components/FileUpload';
 function App() {
   return (
     <div className="Ap">
-      {/* <LoadingSpinner/> */}
+      <LoadingSpinner/>
       <DragAndDrop/>
       {/* <Rating rating={2.5} /> */}
       {/* <Carosuel/> */}
