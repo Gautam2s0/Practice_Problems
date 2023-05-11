@@ -1,0 +1,12 @@
+.icons{
+    color: #ffc107
+    
+    
+}
+input[type="radio"]{
+    display: none;
+}
+.star{
+    cursor: pointer;
+    transition: color 300ms;
+}

@@ -1,0 +1,43 @@
+#carr{
+    display: flex;
+    width: 90vw;
+    height: 50vh;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid teal; */
+    box-sizing: border-box;
+    margin-top: 5%;
+   
+}
+button{
+    
+    width: 50px;
+    height: 50px;
+    background: gray;
+    color: blanchedalmond;
+    border-radius: 50%;
+    cursor: pointer;
+   border: 3px solid gray;
+}
+button:hover{
+    background: transparent;
+    color: chartreuse;
+    border: 3px solid teal;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#one{
+    position: relative;
+    top: 0;
+    left: 50px;
+    
+}
+#two{
+    position: relative;
+    top: 0;
+    right: 50px;
+   
+}

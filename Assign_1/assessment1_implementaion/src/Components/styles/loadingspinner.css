@@ -1,0 +1,30 @@
+.loding{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #373636;
+    color: aqua;
+
+}
+.loding::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    border: 15px solid rgb(220, 208, 208);
+    border-top-color: teal;
+    border-radius: 50%;
+    animation: loading 1s ease infinite;
+}
+@keyframes loading{
+    from{transform: rotate(0turn);}
+    to{transform: rotate(1turn);}
+}
+.loding--hidden{
+    opacity: 0;
+    visibility: hidden;
+}
