@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="Ap">
       <LoadingSpinner/>
-      <DragAndDrop/>
+//       <DragAndDrop/>
 //       {<Rating rating={2.5} />}
 //       {<Carosuel/>}
 //       {<FileUpload/>}
