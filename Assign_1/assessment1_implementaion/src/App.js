@@ -15,7 +15,7 @@ function App() {
       <LoadingSpinner/>
       <DragAndDrop/>
       {<Rating rating={2.5} />}
-      {/* <Carosuel/> */}
+      {<Carosuel/>}
       {/* <FileUpload/> */}
 
     </div>
