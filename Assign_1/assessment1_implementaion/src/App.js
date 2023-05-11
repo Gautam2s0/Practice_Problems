@@ -14,7 +14,7 @@ function App() {
     <div className="Ap">
       <LoadingSpinner/>
       <DragAndDrop/>
-      {/* <Rating rating={2.5} /> */}
+      {<Rating rating={2.5} />}
       {/* <Carosuel/> */}
       {/* <FileUpload/> */}
 
