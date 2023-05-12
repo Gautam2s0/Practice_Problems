@@ -7,7 +7,6 @@ import img4 from "./Images/img4.png"
 import img5 from "./Images/img5.jpg"
 import img6 from "./Images/img6.png"
 
-
 export const Carosuel = () => {
     let [index,setIndex]=useState(0)
     let arr=[img1,img2,img3,img4,img5,img6]
