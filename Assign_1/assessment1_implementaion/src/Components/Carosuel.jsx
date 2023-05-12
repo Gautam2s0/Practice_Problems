@@ -17,7 +17,7 @@ export const Carosuel = () => {
     }
 useEffect(()=>{
     change(index,arr,setIndex)
-},[]) 
+},[])  
   return (
     <div id="carr">
         <button id="one" onClick={()=>{
