@@ -7,7 +7,7 @@ export const DragAndDrop = () => {
         <dropable>
             <ul>
                
-                <li>2</li>
+               
                
             </ul>
         </dropable>
