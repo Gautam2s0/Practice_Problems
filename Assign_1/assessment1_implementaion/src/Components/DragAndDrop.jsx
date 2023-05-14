@@ -6,7 +6,6 @@ export const DragAndDrop = () => {
     <div>
        
        
-
     </div>
   )
 }
